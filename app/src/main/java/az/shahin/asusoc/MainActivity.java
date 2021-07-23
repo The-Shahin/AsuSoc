@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         onBackPressed();
         return super.onNavigateUp();
     }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+    }
 }
